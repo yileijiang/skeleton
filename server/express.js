@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const userRouter = require('./routers/user.router')
-const authenticationRouter = require('./routers/authentication.router')
+const authRouter = require('./routers/auth.router')
 
 const app = express()
 
@@ -12,6 +12,6 @@ app.use(cors())
 app.use(cookieParser())
 
 app.use('/', userRouter)
-app.use('/', authenticationRouter)
+app.use('/', authRouter)
 
 module.exports = app
