@@ -52,6 +52,9 @@ UserSchema.methods = {
     } catch (err) {
       return ''
     }
+  },
+  authenticate: function(plainText) {
+    return bcrypt.compare(plainText, this.hashed_password)
   }
 }
 
