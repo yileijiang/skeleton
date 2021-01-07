@@ -1,1 +1,2 @@
-GET http://localhost:3001/api/users/5ff6fc896deeca8f04d1792e
+GET http://localhost:3001/api/users/5ff70c730fa87c36d9ad201e
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmY3MGM3MzBmYTg3YzM2ZDlhZDIwMWUiLCJpYXQiOjE2MTAwMjk5OTJ9.rA7_nrcauRcMeZDeAxcUs5OMYEs_Sb8H5yd1Ha5pYac
